@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OptionsActivity">
+
+    <FrameLayout
+        android:id="@+id/frag_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/options_height"></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/radg_option"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/options_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+
+        <RadioButton
+            android:id="@+id/radb0"
+            android:tag="0"
+            style="@style/option_radb_style"
+            android:text="@string/strive" />
+
+        <RadioButton
+            android:id="@+id/radb1"
+            android:tag="1"
+            style="@style/option_radb_style"
+            android:text="@string/insist" />
+
+        <RadioButton
+            android:id="@+id/radb2"
+            android:tag="2"
+            style="@style/option_radb_style"
+            android:text="@string/advance" />
+
+        <RadioButton
+            android:id="@+id/radb3"
+            android:tag="3"
+            style="@style/option_radb_style"
+            android:text="@string/do_not_give_up" />
+
+    </RadioGroup>
+
+
+</RelativeLayout>

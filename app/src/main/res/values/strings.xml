@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">reLearn</string>
+    <string name="onefragment">go1</string>
+    <string name="twofragment">go2</string>
+    <string name="threefragment">go3</string>
+    <string name="forufragment">go4</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="strive">奋斗</string>
+    <string name="insist">坚持</string>
+    <string name="advance">前进</string>
+    <string name="do_not_give_up">不放弃</string>
+    <string name="delete">删除</string>
+    <string name="share">分享</string>
+</resources>

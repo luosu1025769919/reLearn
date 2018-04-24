@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.luosu.relearn.FirstActivity">
+
+    <Button
+        android:id="@+id/btn_gotolistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="gotolistview"
+        android:text="打开recycleview" />
+
+    <Button
+        android:id="@+id/btn_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="gotochart"
+        android:text="打开图形控件" />
+
+    <Button
+        android:id="@+id/btn_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="gotooption"
+        android:text="打开目录按钮" />
+    <Button
+        android:id="@+id/btn_swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="滑动控件" />
+</LinearLayout>
